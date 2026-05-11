@@ -10,9 +10,59 @@
             href="./assets/images/favicon-32x32.png"
         />
         <title>Frontend Mentor | Social links profile</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="./output/output.css" />
     </head>
-    <body>
-        <h1 class="text-red-500">Hello</h1>
+    <body
+        class="bg-[hsl(0,0%,8%)] text-[hsl(0,0%,100%)] flex items-center justify-center min-h-screen p-2"
+    >
+        <div
+            class="w-full max-w-80 sm:max-w-96 bg-[hsl(0,0%,12%)] rounded-xl p-6 sm:p-8 flex items-center justify-center flex-col"
+        >
+            <div class="flex items-center justify-center flex-col">
+                <img
+                    src="./assets/images/avatar-jessica.jpeg"
+                    class="rounded-full w-22 h-22 mb-4"
+                    alt="avatar"
+                />
+                <h1 class="text-xl sm:text-2xl mb-1">Jessica Randall</h1>
+                <p class="text-[hsl(75,94%,57%)] mb-5">
+                    London, United Kingdom
+                </p>
+                <p class="mb-3 font-light text-sm text-[hsl(0,0%,100%)]">
+                    "Front-end developer and avid reader."
+                </p>
+            </div>
+            <div class="flex flex-col gap-3 w-full">
+                <div
+                    class="flex items-center justify-center p-2 bg-[hsl(0,0%,20%)] rounded-sm hover:bg-[hsl(75,94%,57%)] cursor-pointer hover:text-black transition"
+                >
+                    GitHub
+                </div>
+                <div
+                    class="flex items-center justify-center p-2 bg-[hsl(0,0%,20%)] rounded-sm hover:bg-[hsl(75,94%,57%)] cursor-pointer hover:text-black transition"
+                >
+                    Frontend Mentor
+                </div>
+                <div
+                    class="flex items-center justify-center p-2 bg-[hsl(0,0%,20%)] rounded-sm hover:bg-[hsl(75,94%,57%)] cursor-pointer hover:text-black transition"
+                >
+                    LinkedIn
+                </div>
+                <div
+                    class="flex items-center justify-center p-2 bg-[hsl(0,0%,20%)] rounded-sm hover:bg-[hsl(75,94%,57%)] cursor-pointer hover:text-black transition"
+                >
+                    Twitter
+                </div>
+                <div
+                    class="flex items-center justify-center p-2 bg-[hsl(0,0%,20%)] rounded-sm hover:bg-[hsl(75,94%,57%)] cursor-pointer hover:text-black transition"
+                >
+                    Instagram
+                </div>
+            </div>
+        </div>
     </body>
 </html>
